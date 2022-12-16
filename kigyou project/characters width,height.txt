@@ -1,0 +1,10 @@
+idle =183w/4,150h/2 ,46w,75h
+hit=56w,77h
+hit2=64w,75h
+hit3=62w,77j
+crouch=46w,66h
+jump=40w,70h
+
+monster 
+173w/4,135h/2 
+43w	,68h

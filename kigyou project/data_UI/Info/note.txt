@@ -1,0 +1,3 @@
+special_bar white rect size
+26 mmx 3.3mmy
+306px 39py
