@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - Spawner
+  - ParticleSystem
+  - Bullet
+  - Wing
+  - Bomb
+  - TNT
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Post Processing
+  - Platform
+  - Player1
+  - Player2
+  - Bomb
+  - Wing
+  - TNT
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 2704786099
+    locked: 0
+  - name: BetweenBF
+    uniqueID: 2187148815
+    locked: 0
+  - name: Middle
+    uniqueID: 3171489551
+    locked: 0
+  - name: BetweenMF
+    uniqueID: 948743117
+    locked: 0
+  - name: Front
+    uniqueID: 855347751
+    locked: 0
+  - name: UI
+    uniqueID: 3767441481
+    locked: 0

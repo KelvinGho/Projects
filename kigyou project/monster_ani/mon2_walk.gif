@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6fdd073c2cf3df32a0071ef7fe1c32ae6da8c864e7d40eb781be337f1ae48964
-size 1011
+// -------------------------------------------------------------------------------
+// 
+// 		ＤＸライブラリ		データタイプ定義ヘッダファイル
+// 
+// 				Ver 3.19b
+// 
+// -------------------------------------------------------------------------------
+
+#ifndef __DXDATATYPE_H__
+#define __DXDATATYPE_H__
+
+// インクルード ------------------------------------------------------------------
+#include "DxCompileConfig.h"
+#include <stdio.h>
+
+#ifdef __WINDOWS__
+#include "DxDataTypeWin.h"
+#endif
+
+#ifdef __ANDROID__
+#include "DxDataTypeAndroid.h"
+#endif // __ANDROID__
+
+#ifdef __APPLE__
+    #include "TargetConditionals.h"
+    #if TARGET_OS_IPHONE
+		#include "DxDataTypeiOS.h"
+	#endif
+#endif // __APPLE__
+
+#ifdef __psp2__
+#include "DxDataTypePSVita.h"
+#endif // __psp2__
+
+#ifdef __ORBIS__
+#include "DxDataTypePS4.h"
+#endif // __ORBIS__
+
+#ifdef NN_NINTENDO_SDK
+#include "DxDataTypeNSW.h"
+#endif // NN_NINTENDO_SDK
+
+#ifndef DX_NON_NAMESPACE
+
+namespace DxLib
+{
+
+#endif // DX_NON_
